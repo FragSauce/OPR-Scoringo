@@ -51,6 +51,12 @@ export function RoundScoringPanel({ match }: { match: Match }) {
           min={0}
           onChange={(n) => dispatch({ type: "SET_ROUND_INPUTS", inputs: { primaryVp: n } })}
         />
+        <div className="mt-3 rounded-lg border border-slate-700 bg-slate-900/60 p-3">
+          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-emerald-400">
+            {primary.name} — how to score
+          </p>
+          <p className="whitespace-pre-line text-sm text-slate-300">{primary.rules}</p>
+        </div>
       </Card>
 
       <Card>
