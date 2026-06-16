@@ -29,13 +29,15 @@ export const PRIMARY_MISSIONS: PrimaryMission[] = [
       "to a maximum of 9 VP.",
   },
   {
-    id: "search-and-destroy",
-    name: "Search and Destroy",
-    summary: "Score for out-objecting and out-killing your opponent.",
+    id: "domination",
+    name: "Domination",
+    summary: "Score for matching or beating your opponent on objectives and kills.",
     rules:
-      "At the end of each round after the first you score:\n" +
+      "At the end of each round after the first you score (maximum 3 VP):\n" +
       "• 2 VP if you control more objectives than your opponent\n" +
-      "• 2 VP if you destroyed more units this round than your opponent",
+      "• 1 VP if you control the same number of objectives as your opponent\n" +
+      "• 2 VP if you destroyed more units this round than your opponent\n" +
+      "• 1 VP if you destroyed the same number of units as your opponent",
   },
 ];
 

@@ -21,7 +21,7 @@ or any static host.
 
 ## How it works
 
-- **Setup** — choose a primary mission (Take and Hold / Conquest / Search and Destroy), set
+- **Setup** — choose a primary mission (Take and Hold / Conquest / Domination), set
   the VP value of each secondary, and flag the opponent's army features (Hero / Tough 6+ /
   15+ models).
 - **Round 1** is deployment — nothing scores and no secondaries are drawn.

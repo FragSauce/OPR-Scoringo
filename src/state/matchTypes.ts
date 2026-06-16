@@ -6,7 +6,7 @@
  * just tallies it alongside the secondary missions it manages.
  */
 
-export type PrimaryMissionId = "take-and-hold" | "conquest" | "search-and-destroy";
+export type PrimaryMissionId = "take-and-hold" | "conquest" | "domination";
 
 /** Flags describing the OPPONENT's army list, used to filter conditional secondaries. */
 export interface ArmyFlags {
